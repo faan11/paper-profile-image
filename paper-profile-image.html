@@ -1,0 +1,34 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+`paper-profile-image`
+Profile design selector google contacts style.
+
+@demo demo/index.html
+-->
+
+<dom-module id="paper-profile-image">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]!</h2>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'paper-profile-image',
+
+      properties: {
+        prop1: {
+          type: String,
+          value: 'paper-profile-image',
+        },
+      },
+
+    });
+  </script>
+</dom-module>
